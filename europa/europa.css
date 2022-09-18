@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(249,249,249);
+    width: fit-content;
+}
+
+
+h1{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: .9rem;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-left: 20px;
+}
+
+i{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+p,a{
+    font-size: .9rem;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, .1);
+    margin: 12px 0;
+}
+
+/*   header   */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 25px;
+    padding-right: 40px;
+}
+
+.logo-img {
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+
+#logo {
+    letter-spacing: -1.5px;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    flex: 0 1 685px;
+    margin-left: 40px;
+}
+
+.search-container form {
+    position: relative;
+    width: 100%;
+}
+
+.search-container input {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #121212;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.search-container .search {
+    min-width: 60px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    background-color: #313131;
+    outline: none;
+    border: none;
+}
+
+.search-container .mic {
+    height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-container i {
+    margin-left: 25px;
+}
+
+.profile-box {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 25px;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/*   header   */
+
+
+
+/*aside{
+    margin: 0;
+}
+#logo{
+    width: 10rem;
+}
+#ham-btn{
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+}
+#ham-btn:hover{
+    border: 1px solid rgb(229,229,229);
+    border-radius: 50%;
+    background-color: rgb(242,242,242);
+}
+header{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.99);
+    z-index: 2023;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 0 2rem;
+    width: 100%;
+    z-index: 2023;
+    margin: 0;
+
+}
+nav .ri-fw{
+    font-size: 2rem;
+    margin: 1.5rem;
+}
+#searchbar{
+    width: 45rem;
+}
+.mic{
+    border: 2px grey;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+    background-color: rgb(249,249,249);
+}
+.mic .ri-fw{
+    margin: 0;
+}
+#end{
+    display: flex;
+}
+#profilepic{
+    border-radius: 50%;
+    border: 1px white;
+    width: 2.5rem;
+    height: 2.5rem;
+}*/
+main{
+    padding-top: 70px;
+    margin: 2rem;
+    font-size: 1.1rem;
+    display: flex;
+}
+#left-side{
+    width: 60%;
+}
+#main-vid{
+    width: 95%;
+}
+video{
+    width: 100% !important;
+}
+#thumbnail{
+    width: 100%;
+    height: 40rem;
+    margin-bottom: 1rem;
+}
+#hashtags{
+    display: inline-block;
+    font-size: 1rem;
+}
+#hashtags a{
+    text-decoration: none;
+}
+#video-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#vid-info{
+    display: flex;
+    justify-content: space-between;
+}
+#views-date{
+    color: rgb(102, 101, 101);
+}
+#likes{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    justify-items: center;
+}
+#likes a{
+    color: black;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+#channel-name{
+    display: flex;
+}
+#channel-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profiles{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+}
+#subscribers{
+    color: rgb(102, 101, 101);
+}
+#subscribe{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    height: 1rem;
+    padding: 0.5rem 1rem;
+}
+#channel{
+    width: 85%;
+}
+
+#comment-title{
+    text-align: left;
+    display: flex;
+    font-size: 1.4rem;
+}
+#comment-title a{
+    color: #000;
+    text-decoration: none;
+}
+#number{
+    margin-right: 1.5rem;
+    display: inline;
+}
+#idle{
+    width: 100%;
+}
+.comment-box{
+    border: hidden;
+    border-bottom: 1px solid rgb(148, 147, 147);
+    width:80% ;
+    background-color: rgb(249,249,249);
+    outline: none;
+}
+.comment-box:focus{
+    border-bottom: 2px black solid;
+}
+#cancel,#submit{
+    color: rgb(102, 101, 101);
+    text-decoration: none;
+    border: 1px solid rgb(242,242,242);
+    background-color: rgb(242,242,242);
+    padding: 0.4rem 1rem;
+    margin: 1rem 1rem 0 0;
+    display: none;
+}
+#comment-buttons{
+    display: none;
+}
+.comment-box:focus #comment-buttons{
+    display: block;
+}
+.old-comment{
+    display: flex;
+    margin: 1.5rem 0rem;
+}
+.comment-details h4{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.age{
+    font-weight: 500;
+    color: rgb(102, 101, 101);
+}
+.replies{
+    display: flex;
+}
+.likes{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+/* #focus {
+    display: none;
+}
+.comment-box:focus #focus{
+    display: block;
+}
+#comment1:focus #idle{
+    display: none;
+}
+
+#idle:target #focus{
+    display: none;
+}
+#idle:target #idle{
+    display: block;
+} */ 
+
+#right-side{
+    width: 30%;
+    margin-left: 3%;
+
+}
+
+
+#suggestions a{
+    position: flex;
+    display:inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(242,242,242);
+    border: 1px grey;
+    border-radius: 30px;
+    margin: 0.5rem;
+    padding: 0.5rem 0.65rem;
+}
+#suggestions a:hover{
+    background-color: rgba(199, 198, 198, 0.856);
+}
+#suggetions a:active{
+    background-color: black;
+    color: white;
+}
+#suggested-vids{
+    margin: 2rem 0 0 0;
+}
+.button-group{
+    display: none;
+}
+.thumbnail{
+    width: 50%;
+    height: 8rem;
+    margin-right: 1.5rem;
+}
+.profile{
+    display: none;
+}
+.videos a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+}
+.videos{
+    margin-bottom: 1.5rem;
+
+}
+
+.videos strong{
+    color: black;
+}
+.videos p{
+    color: rgb(102, 101, 101);
+}
+
+@media(max-width:75rem){
+    main{
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        margin: 1.5rem;
+    }
+    nav{
+        padding: 1rem 1rem 0 1rem;
+    }
+    #logo{
+        width: 7rem;
+    }
+    #searchbar{
+        width: 30rem;
+    }
+    #left-side{
+        width: 100%;
+    }
+    #main-vid{
+        width: 100%;
+    }
+    #thumbnail{
+        width: 100%;
+        height: 35rem;
+        margin: 0 auto;
+    }
+    #video-name{
+        font-size: 1.3rem;
+    }
+    #likes{
+        font-size: 1.2rem;
+    }
+    #likes a{
+        color: black;
+        text-decoration: none;
+        margin-right: 0.5rem;
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+    #right-side{
+        width: 100%;
+        margin: 0;
+    }
+    .thumbnail{
+        height: 10rem;
+        margin-right: 1rem;
+    }
+}
+@media(max-width:65rem){
+    #searchbar{
+        width: 10rem;
+    }
+}
+@media(max-width:27rem){
+    #logo{
+        width: 5rem;
+    }
+    nav .ri-fw{
+        font-size: 1.3rem;
+        margin: 0.9rem;
+    }
+    #center{
+        display: none;
+    }
+    #vid-info{
+        display: flex;
+        flex-direction: column
+    }
+   #channel-info{
+    flex-direction: column;
+   } 
+   #subscribe{
+    width: 35%;
+   }
+   #likes a{
+    font-size: 1rem;
+    font-weight: 100;
+   }
+   #comment-title{
+    font-size: 1.1rem;
+   }
+   #thumbnail{
+    height: 20rem;
+   }
+}

@@ -1,0 +1,37 @@
+nth-child: The :nth-child selector allows you to select one or more elements based on their source order
+z-index: z-index in css is property that specifies how elements stack on each other. 
+E.g, When elements overlap, the element with a larger z-index covers those with a smaller one.
+
+The CSS translateY() function is used to move elements in a two-dimensional space along the y-axis (vertically).
+
+translate(): The translate() CSS function repositions an element in the horizontal and/or vertical directions. Its result is a <transform-function> data type.
+
+       
+<header class="sticky" >
+                <nav>
+                    
+                    <div id="start">
+                        <a href="#side-bar" id="ham-btn"><img src="/europa/images/icons/icons8-menu.svg" alt=""></a>
+                        <img src="/europa/images/icons/Official logo.png" alt="" id="logo" >
+                    </div>
+                
+                    <div id="center">
+                        <form class="d-flex" role="search" >
+                            <input class="form-control" id="searchbar" type="search" placeholder="Search" aria-label="Search" >
+                            <button class="search input-group-text" type="submit"><img src="/europa/images/icons/search-line.svg" alt=""></button>
+                            <button class="mic"><i class="ri-mic-line ri-fw"></i></button>
+                        </form>
+                    </div>
+                    <div id="end">
+                        <div>
+                        <i class="ri-video-add-line ri-fw"></i>
+                        <i class="ri-notification-4-line ri-fw"></i>
+                        </div>
+                        <img src="/europa/images/icons/Blackgirl.jpg" alt="" id="profilepic">
+                    </div>
+                </nav>
+            </header>
+
+
+       
+       
